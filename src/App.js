@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Navigation from './router'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Musicly</h1>
-      </header>
+      <Navigation />
     </div>
   );
 }
