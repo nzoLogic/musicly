@@ -1,11 +1,12 @@
 import React from 'react'
-import './App.css'
-import Navigation from './router'
+import Router from './router'
+
+import { musicians } from './data'
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
+    <div>
+      <Router />
     </div>
   );
 }

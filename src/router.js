@@ -1,16 +1,20 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Link, 
   Switch,
 } from 'react-router-dom'
+import { HomePage } from './pages'
 
-export default function Navigation() {
+export default function Router() {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
-        <nav>
+        <nav style={{
+          backgroundColor: '#0eadb3',
+          height: '62px',
+        }}>
           <ul>
             <li><Link to="/">Home</Link></li>
           </ul>
@@ -19,11 +23,9 @@ export default function Navigation() {
 
       <Switch>
         <Route path="/">
-          <header className="App-header">
-            <h1>Welcome to Musicly</h1>
-          </header>
+          <HomePage />
         </Route>
       </Switch>
-    </Router>
+    </BrowserRouter>
   )
 }

@@ -1,0 +1,46 @@
+{
+  "musicians": [
+    {
+      "_id": "1a",
+      "name": "Bassnectar",
+      "genre": "Electronic",
+      "location": "Santa Cruz, CA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bassnectar_press_photo_2014.jpg/440px-Bassnectar_press_photo_2014.jpg"
+    },
+    {
+      "_id": "2b",
+      "name": "Grandson",
+      "genre": "Alternative Rock",
+      "location": "Ontario, Canada",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/OBC_2019_Night_Two_Grandson_%2848200583051%29.jpg/440px-OBC_2019_Night_Two_Grandson_%2848200583051%29.jpg"
+    },
+    {
+      "_id": "3c",
+      "name": "Brand New",
+      "genre": "Alternative Rock",
+      "location": "Long Island, New York",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Brandnew1.jpg/440px-Brandnew1.jpg"
+    },
+    {
+      "_id": "4d",
+      "name": "Childish Gambino",
+      "genre": "Hip Hop",
+      "location": "Atlanta, GA",
+      "image": ""
+    },
+    {
+      "_id": "5e", 
+      "name": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "location": "Compton, CA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg/440px-Pulitzer2018-portraits-kendrick-lamar.jpg"
+    },
+    {
+      "_id": "6f",
+      "name": "Odesza",
+      "genre": "Electronic",
+      "location": "Bellingham, Washington",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Odesza_2015.jpg/440px-Odesza_2015.jpg"
+    }
+  ]
+}
