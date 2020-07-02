@@ -14,6 +14,7 @@ export default function Router() {
         <nav style={{
           backgroundColor: '#0eadb3',
           height: '62px',
+          padding: '0 8px',
         }}>
           <ul>
             <li><Link to="/">Home</Link></li>

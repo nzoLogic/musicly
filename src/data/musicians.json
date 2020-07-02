@@ -26,14 +26,14 @@
       "name": "Childish Gambino",
       "genre": "Hip Hop",
       "location": "Atlanta, GA",
-      "image": ""
+      "image": "https://www.indiewire.com/wp-content/uploads/2018/05/screen-shot-2018-05-07-at-4-48-25-pm.png?w=780"
     },
     {
       "_id": "5e", 
       "name": "Kendrick Lamar",
       "genre": "Hip Hop",
       "location": "Compton, CA",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg/440px-Pulitzer2018-portraits-kendrick-lamar.jpg"
+      "image": "https://www.rap-up.com/app/uploads/2020/06/kendrick-lamar-i.jpg"
     },
     {
       "_id": "6f",

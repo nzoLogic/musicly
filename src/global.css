@@ -25,6 +25,13 @@ nav {
   width: 100%;
 }
 
+h4 {
+  display: inline-block
+}
+.sm-p {
+  padding: 0 8px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
