@@ -1,7 +1,7 @@
 import React from 'react'
-import { MusiciansList } from '../../Musicians-List'
-import { musicians } from '../../data'
+import musicians from '../../musician'
 
+const { MusiciansList } = musicians.components
 
 export default function HomePage() {
   return (
@@ -9,7 +9,7 @@ export default function HomePage() {
       padding: '0px 16px'
     }}>
       <h1>Welcome to Musicly</h1>
-      <MusiciansList musicians={musicians} />
+      <MusiciansList />
     </div>
   )
 }
