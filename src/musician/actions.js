@@ -12,8 +12,10 @@ export const getMusiciansSucceeded = (musicians) => ({
   type: GET_MUSICIANS_SUCCEEDED,
   musicians
 })
+
 export const getMusicians = (dispatch) => {
   dispatch(getMusiciansStarted())
+  // mock API request to show "loading" status
   setTimeout(() => {
     dispatch(getMusiciansSucceeded(musicians))
   }, 2000)

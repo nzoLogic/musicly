@@ -10,7 +10,6 @@ const musiclyApp = combineReducers({
 
 const store = createStore(musiclyApp)
 
-console.log(store.getState())
 function App() {
   return (
     <Provider store={store}>

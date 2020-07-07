@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getMusicians } from '../actions'
 
@@ -29,6 +29,7 @@ export function MusiciansList() {
 
   const dispatch = useDispatch()
 
+  // initial call, #TODO: change to be flexible with musicians data becomes dynamic
   useEffect(() => {
     getMusicians(dispatch)
   }, [])
