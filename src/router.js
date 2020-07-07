@@ -16,7 +16,12 @@ export default function Router() {
           height: '62px',
           padding: '0 8px',
         }}>
-          <ul>
+          <ul style={{
+            display: 'flex',
+            flexDirection: 'column',
+            height: 'inherit',
+            justifyContent: 'center'
+          }}>
             <li><Link to="/">Home</Link></li>
           </ul>
         </nav>
